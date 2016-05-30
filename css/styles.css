@@ -5,21 +5,100 @@ IMPORTS
 @import url('reset.css');
 @import url('accessibility.css');
 @import url('card-styles.css');
+@import url(https://fonts.googleapis.com/css?family=Hind);
 
 
 /********************
 YOUR STYLES
 *******************/
 
+/*Flexbox Stuff Main Layout*/
+
+.main-area {
+    display: flex;
+    justify-content: center;
+}
+
+section.cards {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    width: 15em;
+    height: 12.5em;
+    padding: 1em;
+}
+
+img {
+    height: 10em;
+    width: 15em;
+    margin-bottom: -1em;
+}
+
+.card {
+    width: 6em;
+    display: flex;
+    background: none;
+    justify-content: center;
+    margin-right: -1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin-bottom: -3em;
+    
+}
+
+/* Overall Page Design*/
+
+body{
+    background: black;
+}
+
+
+/*Title Styling*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #660000;
+    font-family:'Hind', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: .2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+    color: white;
+    font-size: 1em;
+    opacity: .1;
+}
+
+/*Changing Lightbox Font*/
+
+.lg-sub-html{
+    padding-bottom: 3em;
+    font-size: 2em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color:white;
+    opacity: .5;
+}
+
 /*New BG color*/
 
 .lg-backdrop {
-    background-color: red;
+    background-color: black;
 }
 
 .lg-image {
-    border-radius: 4px;
-    box-shadow: 0 0 8px white;
+    box-shadow: 0 4 50em white;
 }
 
 /********************
