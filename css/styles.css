@@ -17,6 +17,9 @@ YOUR STYLES
 .main-area {
     display: flex;
     justify-content: center;
+    background: black;
+    height: 41.5em;
+    padding-top: 2em;
 }
 
 section.cards {
@@ -30,7 +33,7 @@ a {
     padding: 1em;
 }
 
-img {
+.pics {
     height: 10em;
     width: 15em;
     margin-bottom: -1em;
@@ -53,22 +56,33 @@ img {
 
 body{
     background: black;
+    margin-bottom: 20em;
 }
 
 
 /*Title Styling*/
 
+/*color save: #660000*/
+
 h1 {
     display: flex;
     justify-content: center;
-    color: #660000;
+    color: white;
     font-family:'Hind', sans-serif;
     text-transform: uppercase;
-    font-weight: 100;
-    letter-spacing: .2em;
-    padding-top: 8em;
-    padding-bottom: 2em;
-    opacity: .7;
+    font-weight: 800;
+    font-size: 3.8em;
+    letter-spacing: .5em;
+    margin-bottom: 7em;
+    margin-top: 5.5em;
+    z-index: 1;
+}
+
+#mainwords {
+    background: white;
+    margin-top: .2em;
+    width: .07em;
+    height: 1em;
 }
 
 h2 {
@@ -87,7 +101,7 @@ h3 {
     text-transform: lowercase;
     font-weight: 100;
     letter-spacing: .2em;
-    padding-bottom: 10em;
+    margin-top: 6em;
 }
 
 /*Changing Lightbox Font*/
@@ -100,6 +114,22 @@ h3 {
     letter-spacing: .2em;
     color:white;
     opacity: .5;
+}
+
+/*Banner Styling*/
+
+.banner {
+    z-index: -100;
+    opacity: .3;
+    height: 40em;
+    overflow: hidden;
+    position: fixed;
+    margin-top: -16.1em;
+}
+
+#palm {
+    max-height: auto;
+    max-width: 100%;
 }
 
 /*New BG color*/
