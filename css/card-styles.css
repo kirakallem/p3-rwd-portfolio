@@ -73,6 +73,7 @@ body {
 @media screen and (min-width: 60em) {
     .cards {
         margin-top: inherit;
+        margin-bottom: 8em;
     }
     
     .card {
