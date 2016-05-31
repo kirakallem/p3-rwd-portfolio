@@ -134,6 +134,14 @@ h3 {
     height: 1em;
     padding: .2em .5em 0 .5em;
     opacity: .2;
+    -webkit-transition-duration: .8s;
+    transition-duration: .8s;
+}
+
+#wl:hover {
+    opacity: 1;
+    -webkit-transition-duration: .8s;
+    transition-duration: .8s;
 }
 
 /*New BG color*/
