@@ -90,7 +90,7 @@ h2 {
     font-weight: 100;
     color: white;
     font-size: 1em;
-    opacity: .1;
+    opacity: 0;
 }
 
 h3 {
@@ -133,9 +133,9 @@ h3 {
 #wl {
     height: 1em;
     padding: .2em .5em 0 .5em;
-    opacity: .2;
-    -webkit-transition-duration: .8s;
-    transition-duration: .8s;
+    opacity: .4;
+    -webkit-transition-duration: 2.7s;
+    transition-duration: 2.7s;
 }
 
 #wl:hover {
