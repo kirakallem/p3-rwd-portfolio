@@ -17,7 +17,6 @@ YOUR STYLES
 .main-area {
     display: flex;
     justify-content: center;
-    background: black;
     height: 41.5em;
     padding-top: 2em;
 }
@@ -29,8 +28,7 @@ section.cards {
 
 a {
     width: 15em;
-    height: 12.5em;
-    padding: 1em;
+    height: 10em;
 }
 
 .pics {
@@ -48,8 +46,6 @@ a {
     padding-right: 1em;
     padding-top: 1em;
     padding-left: 1em;
-    margin-bottom: -3em;
-    
 }
 
 /* Overall Page Design*/
@@ -71,7 +67,7 @@ h1 {
     font-weight: 800;
     font-size: 3.8em;
     letter-spacing: .5em;
-    margin-bottom: 7em;
+    margin-bottom: 5.1em;
     margin-top: 5.5em;
     z-index: 1;
 }
